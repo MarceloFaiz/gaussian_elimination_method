@@ -10,7 +10,7 @@ Abaixo estão os comandos para executar cada programa:
 
 - C
 ```sh
-gcc -o gauss_elim gauss_elim.c -lm
+gcc -o gauss_elim gauss_elim.c -lm && ./gauss_elim
 ```
 
 - Rust (Dentro da pasta gauss_elim)
@@ -20,5 +20,5 @@ Cargo run
 
 - Go
 ```sh
-go run gauss_elim.go
+go build -o gauss_elim gauss_elim.go && ./gauss_elim
 ```
